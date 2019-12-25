@@ -1,0 +1,9 @@
+[DOCTYPE USON]
+[-DATA_COUNT-]=[-<this-value-is-'domain-count'*4>-]
+[-DOMAIN_COUNT-]=[-<how-many-domain-you-have>-]
+[-DOMAIN_<no.>-]=[-<domain-name>-]
+[-DOMAIN_<no.>_SUB_COUNT-]=[-<record-count>-]
+[-DOMAIN_<no.>_SUB_NAME_LIST-]=[-<record-list>-]
+[-DOMAIN_<no.>_SUB_NAME_TYPE_LIST-]=[-<record-type-list>-]
+[-DOMAIN_3_SUB_NAME_TYPE_LIST-]=[-A,A,AAAA-]
+-END-

@@ -1,0 +1,7 @@
+[DOCTYPE USON]
+[-DATA_COUNT-] = [-4-]
+[-ACCESS_KEY_ID-] = [-<your-accesskey-id>-]
+[-ACCESS_KEY_SERCET-] = [-<your-accesskey-sercet>-]
+[-LOG_FILE_PATH-] = [-<your-log-file-path-name>-]
+[-DNS_FILE_PATH-] = [-<your-'dns.uson'-file-path-name>-]
+-END-
