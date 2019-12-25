@@ -24,7 +24,7 @@ Bulid Step:
   
    **config.uson**
     
-   config.uson recored your accesskey info and file path info,it must be putted in the same directory. (the default is /usr/bin)
+   config.uson recored your accesskey info and file path info,it must be putted in the same directory of main program. (the default is /usr/bin)
     
    You can see the 'config.uson' in source code to fill it with your data.('<' and '>' should not included)
     
@@ -32,7 +32,7 @@ Bulid Step:
     
    dns.uson recorded your domain/dns record info.You can tell the program where it is by editing 'config.uson'.
    
-   You can see the 'dns.uson' in source code to fill it with your data.('<' and '>' should not included).Make sure that all domains in that file is belong to one account.Even you have only one domain,you must set the 'DOMAIN_COUNT to 1 and all '<no.>' to 1.If you had more than one domain,set this from 1 to n.
+   You can see the 'dns.uson' in source code to fill it with your data.('<' and '>' should not included).Make sure that all domains in that file is belong to one account.If you have only one domain,you must set the 'DOMAIN_COUNT to 1 and all '<no.>' to 1.If you had more than one domain,set this from 1 to n.
    
    **log**
    
