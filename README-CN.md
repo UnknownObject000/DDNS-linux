@@ -3,7 +3,7 @@
 # DDNS-linux 
 一个C++编写的DDNS程序，可实现**阿里云**域名的动态解析记录修改，同时支持IPv4和IPv6。
 
-## Build
+## 编译
 编译此程序需要以下程序/组件：
   - GCC 6.0.0或以上版本 (支持c++11)
   - <a href="https://github.com/aliyun/aliyun-openapi-cpp-sdk">Aliyun-openapi-cpp-sdk</a>的 ***core*** 和 ***alidns*** 组件
