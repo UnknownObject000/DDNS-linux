@@ -1,3 +1,5 @@
+English | [简体中文](./README-CN.md)
+
 # DDNS-linux 
 This is a DDNS program written in C++.It can change **Aliyun** domain record automatically,IPv4 and IPv6 are both supported.
 
@@ -28,4 +30,25 @@ Bulid Step:
     
    **dns.uson**
     
-   dns.uson recorded your domain/dns record info.You can tell the program where it is in 'config.uson'.
+   dns.uson recorded your domain/dns record info.You can tell the program where it is by editing 'config.uson'.
+   
+   You can see the 'dns.uson' in source code to fill it with your data.('<' and '>' should not included).Make sure that all domains in that file is belong to one account.Even you have only one domain,you must set the 'DOMAIN_COUNT to 1 and all '<no.>' to 1.If you had more than one domain,set this from 1 to n.
+   
+   **log**
+   
+   The name of a log file can be whatever you want.What you just need to make sure is the directory that store log file exist and needn't to create a log file by yourself.The program will do that for you.
+   
+  4. Execute the following command to finish.
+  ```base
+    mv ./config.uson /usr/bin/
+  ```
+ 
+ ## Useage
+  To use start this DDNS service by execiting:
+  ```bash
+    DDNS
+  ```
+  If you want to run it at background,executing:
+  ```bash
+   DDNS > /dev/null 2>&1 &
+  ```
